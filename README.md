@@ -12,3 +12,6 @@ The tool is designed to be intuitive and flexible, catering to a range of user n
 2. Sequence File(s): Ready-to-use sequence files in standard formats like FASTA.
 
 This tool streamlines sequence retrieval, significantly enhancing the efficiency and accuracy of replicating published experiments. It will be a valuable resource for the bioinformatics and computational biology community, saving time and reducing errors in essential data collection steps.
+
+--
+this project is building as a part of the course: https://github.com/szabgab/wis-python-course-2024-11
