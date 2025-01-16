@@ -15,3 +15,6 @@ This tool streamlines sequence retrieval, significantly enhancing the efficiency
 
 --
 this project is building as a part of the course: https://github.com/szabgab/wis-python-course-2024-11
+
+f
+
