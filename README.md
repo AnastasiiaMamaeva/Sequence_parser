@@ -6,12 +6,32 @@ This project aims to solve this issue by developing a powerful and user-friendly
 
 # Usage
 
-The tool is designed to be intuitive and flexible, catering to a range of user needs. Users can input raw text containing accession numbers, even if the text includes extraneous "junk" information such as row numbers, comments, or additional annotations. By specifying a few parameters, such as the database to query or whether to split sequences into multiple files or save them in a single file, the user will acquire:
+The tool is designed to be intuitive and flexible, catering to a range of user needs.
 
-1. A Clean Table: An organized table summarizing details about the sequences, including sequence type, source organism, and database information.
-2. Sequence File(s): Ready-to-use sequence files in standard formats like FASTA.
+To install the program, download seq_parser.py and make sure you have all requirements in your environment (see the file requirements.txt).
 
-This tool streamlines sequence retrieval, significantly enhancing the efficiency and accuracy of replicating published experiments. It will be a valuable resource for the bioinformatics and computational biology community, saving time and reducing errors in essential data collection steps.
+To run the program:
+
+Open command terminal.
+Redirect it to the directory where seq_parser.py is placed (cd FolderPath for Bash).
+Run the command python seq_parser.py.
+The dialog window will open.
+Choose:
+
+A file that contains sequences to parse or input it as text in the corresponding window.
+Select the NCBI database from which you want to parse your data.
+Select whether you want to have output sequences in one merged file or as a folder with multiple files—one file for each sequence.
+Select a place you want to store your sequences.
+Press "Submit" once you are done.
+If you don't input a file/text or output folder, the program will kindly ask you to do so.
+
+You will get a folder named output (or output_1, output_2, etc., if it already exists) filled with files of sequences named with accession numbers or as search_results if the user chose to save as one file.
+
+Fetching takes some time, so the user should wait patiently until the program displays another window saying "All done!" or gives an error in case something went wrong.
+
+You can find an example input file in the project folder.
+
+Have a good time using the app and analyzing sequences!
 
 --
 this project is building as a part of the course: https://github.com/szabgab/wis-python-course-2024-11

@@ -1,0 +1,2 @@
+Python version 3.9 or earlier 
+libraries: os, re, tkinter, biopython
