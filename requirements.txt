@@ -1,2 +1,2 @@
-Python version 3.9 or earlier 
+Python version 3.9 or later
 libraries: os, re, tkinter, biopython
