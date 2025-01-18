@@ -34,5 +34,5 @@ You can find an example input file in the project folder.
 Have a good time using the app and analyzing sequences!
 
 --
-this project is building as a part of the course: https://github.com/szabgab/wis-python-course-2024-11
+this project has been created as a part of the course: https://github.com/szabgab/wis-python-course-2024-11
 
